@@ -5,8 +5,8 @@ weight = 1
 alwaysopen = true
 +++
 
-## Requirements
+# Requirements
 
-Download [Hugo binary](https://gohugo.io/overview/installing/) for your OS (Windows, Linux, Mac) : it’s that simple
+Use [npm](https://docs.npmjs.com/) to install **alscan-js** globally : it’s that simple
 
 {{%children style="h2" description="true"%}}

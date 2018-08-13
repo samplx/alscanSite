@@ -16,7 +16,7 @@ HUGULP = hugulp
 all: build
 
 build:
-	${RM} -r public/* target/*
+	${RM} -r public/*
 	${HUGO} ${HUGO_BUILD_OPTS}
 	${HUGULP} build
 

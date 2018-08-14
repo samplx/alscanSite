@@ -13,10 +13,6 @@ It is compatible with both the Apache web server's [combined](http://httpd.apach
 
 The software is designed for Linux and other Unix-like systems.
 
-## Main features
-
-To be described.
-
 ## Contribute to this documentation
 
 Feel free to update this content, just click the **Improve this page** link displayed on bottom right of each page, and pull-request it

@@ -1,6 +1,6 @@
 +++
 title = "Access log locations"
-description = "Log Locations"
+description = "How log files are selected."
 weight = 2
 +++
 # Access log locations

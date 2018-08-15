@@ -11,21 +11,6 @@ defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
-
-# [Languages]
-# [Languages.en]
-# title = "Documentation for Hugo docDock"
-# weight = 1
-# languageName = "English"
-# 
-# [Languages.fr]
-# title = "Documentation du thème docDock"
-# weight = 2
-# languageName = "Français"
-
-
-
-
 [params]
 editURL = "https://github.com/samplx/alscanSite/edit/master/content/"
 showVisitedLinks = true # default is false
@@ -54,12 +39,6 @@ weight = 10
 name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
 url = "https://github.com/samplx/alscan-js/archive/master.zip"
 weight = 11
-
-[[menu.shortcuts]]
-name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
-identifier = "hugodoc"
-url = "https://gohugo.io/"
-weight = 20
 
 [[menu.shortcuts]]
 name = "<i class='fa fa-bullhorn'></i> <label>Credits</label>"

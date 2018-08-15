@@ -1,0 +1,5 @@
+# vim: tabstop=4 shiftwidth=4 softtabstop=0 noexpandtab smarttab
+#
+SERVER = server
+DOCROOT = /var/www/html
+REMOTE_USER = www-data

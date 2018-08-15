@@ -13,6 +13,14 @@ DOCKER = docker
 
 HUGULP = hugulp
 
+RSYNC = rsync
+RSYNC_FLAGS = -av
+
+SERVER = remote-server-name
+DOCROOT = /var/www/some/directory
+
+-include Makefile.local
+
 all: build
 
 build:
@@ -31,4 +39,8 @@ start:
 
 stop:
 	[ ! -f ${PIDFILE} ] || kill "$$(cat ${PIDFILE})" > /dev/null 2>&1
+
+install: build
+	(cd public; ${RSYNC} ${RSYNC_FLAGS} . "${REMOTE_USER}@${SERVER}:${DOCROOT}/")
+
 

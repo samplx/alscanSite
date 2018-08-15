@@ -1,6 +1,6 @@
 +++
 title = "Options"
-description = "Options"
+description = "Details about each option."
 weight = 6
 +++
 
